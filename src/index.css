@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+    color: #2b2724;
+    background-color: #fcfaf9;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.font-serif-wedding {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-script-wedding {
+  font-family: 'Pinyon Script', cursive;
+}
+
+.font-sans-wedding {
+  font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+}
