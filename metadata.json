@@ -1,0 +1,6 @@
+{
+  "name": "Bricia & Alan - Confirmación de Boda",
+  "description": "Página de confirmación de asistencia (RSVP) para la boda de Bricia & Alan con control de invitados y sincronización en tiempo real con Google Sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
