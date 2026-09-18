@@ -158,7 +158,7 @@ export const RsvpForm: React.FC<Props> = ({
                 Pases asignados para esta invitación
               </p>
               <p className="text-xs text-[#6e6258]">
-                {maxGuestsAllocated === 0
+                {maxGuestsAllocated === 1
                   ? 'Tienes 1 pase individual reservado.'
                   : `Hemos reservado ${maxGuestsAllocated} lugares para ti y tus acompañantes.`}
               </p>
