@@ -46,7 +46,7 @@ export default function App() {
 
   // Invitation link query parameters
   const [guestNameFromUrl, setGuestNameFromUrl] = useState('');
-  const [maxGuestsFromUrl, setMaxGuestsFromUrl] = useState<number>(2);
+  const [maxGuestsFromUrl, setMaxGuestsFromUrl] = useState<number>(1);
 
   // Modals
   const [isAdminOpen, setIsAdminOpen] = useState(false);
@@ -58,7 +58,7 @@ export default function App() {
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const nombre = params.get('nombre') || params.get('name') || '';
-    const pases = params.get('pases') || params.get('invitados') || params.get('max') || '2';
+    const pases = params.get('pases') || params.get('invitados') || params.get('max') || '1';
     const adminMode = params.get('admin');
 
     if (nombre) {
